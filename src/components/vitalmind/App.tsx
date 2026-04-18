@@ -336,7 +336,7 @@ export default function VitalMindApp() {
     setRecommendations([]);
   }, [locale]);
 
-  // Auto-load insights/recommendations when tab changes
+  // Auto-load insights/recommendations when tab changes or locale changes
   useEffect(() => {
     if (activeTab === 'insights' && insights.length === 0 && !insightsLoading) {
       loadInsights();
@@ -344,7 +344,7 @@ export default function VitalMindApp() {
     if (activeTab === 'recommendations' && recommendations.length === 0 && !recsLoading) {
       loadRecommendations();
     }
-  }, [activeTab]);
+  }, [activeTab, locale, insights.length, recommendations.length]);
 
   // Logout handler
   const handleLogout = useCallback(() => {
