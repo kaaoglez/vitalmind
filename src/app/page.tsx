@@ -9,10 +9,7 @@ const VitalMindApp = dynamic(() => import('@/components/vitalmind/App'), {
   loading: () => (
     <div className="min-h-screen flex items-center justify-center bg-[#1a2e44]">
       <div className="flex flex-col items-center gap-3">
-        <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-400 to-teal-500 flex items-center justify-center shadow-lg shadow-emerald-500/20 animate-pulse">
-          <span className="text-white text-lg font-bold">V</span>
-        </div>
-        <span className="text-slate-400 text-sm">VitalMind</span>
+        <img src="/vitalmind_logo.png" alt="VitalMind" className="h-12 w-auto rounded-xl animate-pulse" />
       </div>
     </div>
   ),
