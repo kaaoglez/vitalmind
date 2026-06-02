@@ -76,6 +76,9 @@ export default function Auth({ onAuth, onDemoLogin, onGoogleLogin, loading, erro
         {/* Logo */}
         <div className="text-center mb-6">
           <img src="/vitalmind_logo.png" alt="VitalMind" className="h-14 w-auto mx-auto rounded-xl" />
+          <h1 className="text-xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent mt-2">
+            VitalMind
+          </h1>
         </div>
 
         <Card>
