@@ -157,6 +157,7 @@ export default function Landing({ onLogin, onRegister, locale, setLocale, locale
             {/* Logo */}
             <div className="flex items-center gap-2">
               <img src="/vitalmind_logo.png" alt="VitalMind" className="h-10 w-auto rounded-lg" />
+              <span className="text-xl font-bold text-white">VitalMind</span>
             </div>
 
             {/* Right side: Crisis + Language */}
@@ -632,6 +633,7 @@ export default function Landing({ onLogin, onRegister, locale, setLocale, locale
           <div className="flex flex-col md:flex-row items-center justify-between gap-3">
             <div className="flex items-center gap-2">
               <img src="/vitalmind_logo.png" alt="VitalMind" className="h-6 w-auto rounded" />
+              <span className="text-sm font-semibold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">VitalMind</span>
             </div>
             <p className="text-xs text-muted-foreground">{t('landing.footer')}</p>
           </div>
