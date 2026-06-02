@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "salud",
   ],
   icons: {
-    icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+    icon: "/vitalmind_logo.png",
   },
 };
 
