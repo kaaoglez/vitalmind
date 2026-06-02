@@ -156,10 +156,7 @@ export default function Landing({ onLogin, onRegister, locale, setLocale, locale
           >
             {/* Logo */}
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-400 to-teal-500 flex items-center justify-center shadow-lg shadow-emerald-500/20">
-                <span className="text-white text-lg font-bold">V</span>
-              </div>
-              <span className="text-xl font-bold text-white">VitalMind</span>
+              <img src="/vitalmind_logo.png" alt="VitalMind" className="h-10 w-auto rounded-lg" />
             </div>
 
             {/* Right side: Crisis + Language */}
@@ -634,10 +631,7 @@ export default function Landing({ onLogin, onRegister, locale, setLocale, locale
         <div className="max-w-4xl mx-auto px-6 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-3">
             <div className="flex items-center gap-2">
-              <div className="w-6 h-6 rounded-md bg-gradient-to-br from-emerald-500 to-teal-500 flex items-center justify-center">
-                <span className="text-white text-xs font-bold">V</span>
-              </div>
-              <span className="text-sm font-semibold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">VitalMind</span>
+              <img src="/vitalmind_logo.png" alt="VitalMind" className="h-6 w-auto rounded" />
             </div>
             <p className="text-xs text-muted-foreground">{t('landing.footer')}</p>
           </div>
